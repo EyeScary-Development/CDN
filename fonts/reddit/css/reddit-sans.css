@@ -1,0 +1,36 @@
+/* reddit-sans-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Reddit Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/reddit-sans-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  
+}
+
+/* reddit-sans-italic - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Reddit Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/reddit-sans-v4-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* reddit-sans-700 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Reddit Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/reddit-sans-v4-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* reddit-sans-700italic - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Reddit Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/reddit-sans-v4-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
