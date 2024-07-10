@@ -1,0 +1,8 @@
+/* dawning-of-a-new-day-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Dawning of a New Day';
+    font-style: normal;
+    font-weight: 400;
+    src: url('dawning-of-a-new-day-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
