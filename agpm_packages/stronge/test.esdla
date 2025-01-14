@@ -1,0 +1,22 @@
+write this is the official test file for ESDLang 7
+var nombre 1
+function test1
+write test nombre complete
+endfunction test1
+test1 1
+write test 2 complete
+var test3 test 3 complete
+write test3
+var test4 1
+4 * test4
+var test5 5
+while test5 > 0
+write test 5 cool
+var test5 -1
+endwhile
+if 1 < 2
+write test 6 done
+endif
+var nombre 7
+test1 2
+quit
