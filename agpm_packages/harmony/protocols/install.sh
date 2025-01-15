@@ -15,5 +15,16 @@ else
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/package.zip
     unzip package.zip
     rm package.zip
-    /bin/bash ./harmony-setup.sh
+
+    read -p "What shell are you using? (zsh, fish, bash): " shellinuse
+
+    if [ "$shellinuse" == "zsh" ]; then
+      export file="$HOME/.zshrc"
+    elif [ "$shellinuse" == "bash" ]; then
+      export file="$HOME/.bashrc"
+    else
+      export file="$HOME/.config/fish/config.fish"
+    fi
+
+echo "alias harmony='python3 ~/.agpm/harmony/menu.py'" >> "$file"
 fi
