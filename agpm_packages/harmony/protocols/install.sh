@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ -d "~/.agpm" ]]; then
     echo "Agpm directory exists"
 else
