@@ -15,5 +15,5 @@ else
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/package.zip
     unzip package.zip
     rm package.zip
-    bash ./harmony-setup.sh
+    /bin/bash ./harmony-setup.sh
 fi
