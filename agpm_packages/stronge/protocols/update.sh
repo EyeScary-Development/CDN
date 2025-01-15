@@ -1,11 +1,11 @@
-if [[ -d "~/.agpm" ]]; then
+if [[ -d "$(eval echo "~/.agpm")" ]]; then
     echo "Agpm directory exists"
 else
     echo "Agpm directory doesn't exist, harmony cannot be installed. quitting..."
     exit
 fi
 cd ~/.agpm
-if [[ -d "~/.agpm/stronge" ]]; then
+if [[ -d "$(eval echo "~/.agpm/stronge")" ]]; then
     echo "Stronge directory exists. Proceeding..."
     cd ~/.agpm/stronge/ 
     rm *

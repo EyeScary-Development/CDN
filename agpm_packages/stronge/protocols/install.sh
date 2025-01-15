@@ -1,11 +1,11 @@
-if [[ -d "~/.agpm" ]]; then
+if [[ -d "$(eval echo "~/.agpm")" ]]; then
     echo "Agpm directory exists"
 else
     echo "Agpm directory does not exist. Creating directory..."
     mkdir ~/.agpm/
 fi
 cd ~/.agpm
-if [[ -d "~/.agpm/stronge" ]]; then
+if [[ -d "$(eval echo "~/.agpm/stronge")" ]]; then
     echo "Stronge directory exists already, try update instead"
     exit
 else
