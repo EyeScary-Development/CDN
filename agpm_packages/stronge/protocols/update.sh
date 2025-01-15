@@ -1,0 +1,17 @@
+if [[ -d "~/.agpm" ]]; then
+    echo "Agpm directory exists"
+else
+    echo "Agpm directory doesn't exist, harmony cannot be installed. quitting..."
+    exit
+fi
+cd ~/.agpm
+if [[ -d "~/.agpm/stronge" ]]; then
+    echo "Stronge directory exists. Proceeding..."
+    cd ~/.agpm/stronge/ 
+    rm *
+    curl -O https://eyescary-development.github.io/CDN/agpm_packages/stronge/package.zip
+    unzip package.zip
+    rm package.zip
+else
+    echo "Stronge not installed. Task failed successfully. Quitting..."
+fi
