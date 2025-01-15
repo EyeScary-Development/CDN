@@ -8,4 +8,4 @@ else
   export file="$HOME/.config/fish/config.fish"
 fi
 
-echo "alias harmony='python3 ~/Harmony/menu.py'" >> "$file"
+echo "alias harmony='python3 $PWD/menu.py'" >> "$file"

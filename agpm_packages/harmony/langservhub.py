@@ -6,7 +6,7 @@ pykeywords = ['print', 'input', 'if', 'else:', 'def', 'try:', 'except', 'return'
 pyspecialkeywords={'print(':')','input(':')', 'if':':', 'while':':', 'except':':', 'def':'):', 'elif':':'}
 
 #ESDLang keywords
-esdkeywords = ['write', 'input', 'if', 'else', 'endif', 'function', 'endfunction', 'while', 'endwhile', 'radnom','quit']
+esdkeywords = ['write', 'input', 'if', 'else', 'endif', 'function', 'endfunction', 'while', 'endwhile', 'radnom', 'quit', 'var']
 esdspecialkeywords = {'if':4, 'endfunction':2, 'function':2, 'radnom':3}
 
 #java key words

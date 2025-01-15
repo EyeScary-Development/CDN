@@ -2,7 +2,7 @@ if [[ -d "~/.agpm" ]]; then
     echo "Agpm directory exists"
 else
     echo "Agpm directory does not exist. Creating directory..."
-    mkdir ~/.agpm
+    mkdir ~/.agpm/
 fi
 cd ~/.agpm
 if [[ -d "~/.agpm/harmony" ]]; then
@@ -10,7 +10,9 @@ if [[ -d "~/.agpm/harmony" ]]; then
     exit
 else
     echo "Harmony not installed, installing..."
-    wget https://cdn.jsdelivr.net/gh/EyeScary-Development/CDN/agpm_packages/harmony/
-    cd ~/.agpm/harmony
+    mkdir ~/.agpm/harmony && cd ~/.agpm/harmony
+    for file in menu.py editor.py langservhub.py consts.py settings.escnf settings.py runcode.py harmony-setup.sh README.md; do
+        curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/$file
+    done
     bash harmony-setup.sh
 fi

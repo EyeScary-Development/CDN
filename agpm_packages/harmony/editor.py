@@ -11,6 +11,7 @@ import menu
 from typing import (List, Any)
 import readline
 from settings import checksetting
+from consts import PLATFORM
 
 #variables
 lines=[]
@@ -73,6 +74,7 @@ def replaceLine(linenum):
 def insertLine(linenum, input_list: List[Any]):
     global lines
     linenum-=1
+    input_list.pop(0)
     lines.insert(linenum, ' '.join(input_list)+'\n')
 
 #replace function
@@ -88,13 +90,14 @@ def replace(input_list: List[Any]):
         lines[i] = ' '.join(words)+'\n'
 
 #handles commands
-def commands(input_list: List[Any]):
+def commands(userInput: str):
     global lines
     global filename
     global extension
+    command = userInput.split()[0]
     try:
-        match input_list[1]:
-            case "sf":
+        match command:
+            case ":sf":
                 write(lines, filename, extension)
                 name = input("change to what file name? | ")
                 if name.startswith("."):
@@ -109,38 +112,43 @@ def commands(input_list: List[Any]):
                         extension = "." + extension
                         filename = name + extension
                 openfile(filename)
-            case "q" | "x" | "exit":
+            case ":q" | ":x" | ":exit":
                 os.system("cls" if os.name == "nt" else "clear")
                 return True
-            case "dl":
-                removeLine(input_list[2])
-            case "edln":
-                input_list.pop(0)
-                input_list.pop(0)
-                replaceLine(int(input_list[0]))
-            case 'rp':
-                input_list.pop(0)
-                input_list.pop(0)
-                replace(input_list)
-            case "in":
-                input_list.pop(0)
-                input_list.pop(0)
-                insertLine(int(input_list[0]), input_list)
-            case "rn":
+            case ":dl":
+                removeLine(userInput.split()[1])
+            case ":edln":
+                listtoinput=userInput.split()
+                listtoinput.pop(0)
+                replaceLine(int(listtoinput[0]))
+            case ':rp':
+                listtoinput=userInput.split()
+                listtoinput.pop(0)
+                replace(listtoinput)
+            case ":in":
+                listtoinput=userInput.split()
+                listtoinput.pop(0)
+                insertLine(int(listtoinput[0]), listtoinput)
+            case ":rn":
                 coderun(extension)
-            case "fnd":
+            case ":fnd":
                 os.system("cls" if os.name == "nt" else "clear")
-                printfile(extension, lines, input_list[2])
+                printfile(extension, userInput.split()[1])
                 input('press enter to continue: ')
     except IndexError:
         print("invalid command")
         input("press enter to continue: ")
+
 #writes to the file
 def write(filename, extension):
     global lines
     if extension in autocorrectservers:
         with open(filename, "w") as file:
             for item in lines:
+                if item.startswith(' '):
+                    for char in item:
+                        if char == ' ':
+                            file.write(' ')
                 file.write(langservhub.autocorrect(extension, item.strip()))
     else:
         with open(filename, "w") as file:
@@ -156,7 +164,7 @@ def editor():
     printfile(extension)
     userInput=input("|")
     if userInput.startswith(":"):
-        if commands(userInput.split()):
+        if commands(userInput.strip()):
             return True
     else:
         lines.append(userInput+'\n')
@@ -167,7 +175,10 @@ def main():
     global filename, extension
     if checksetting(1):
         print("here is a list of files in the current directory:")
-        os.system("ls -A")
+        if PLATFORM == "Windows":
+            os.system("dir")
+        else:
+            os.system("ls -A")
     name=input("what is the name of the file you wish to edit?: ")
     if "." in name:
         extension = "." + name.split(".")[1]

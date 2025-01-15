@@ -62,5 +62,5 @@ def editsetting():
 
 #displays info about the build of Harmony
 def about():
-    print("Harmony developer build version 4\nCopyright EyeScary Development Studios 2024")
+    print("Harmony code editor (stronge-harmony) version 0.3\nCopyright EyeScary Development Studios 2024")
     main()

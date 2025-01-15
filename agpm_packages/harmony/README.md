@@ -8,7 +8,7 @@
  * So it's more storage efficient
  * A new syntax highlighting system is more efficient
  * Multiple languages have been implemented from the start to avoid turning into another ESDLang IDE
- * We implemented vim like commands such as : dl, : q, : rn
+ * We implemented vim like commands such as `:dl`, `:q`, `:rn`
  * Unlike vim, we have autosave
 
 # What has been added on top of base Stronge functionality?
@@ -24,7 +24,7 @@
 **To use the autoinstall script, you must be on a nix based os and use fish, zsh or bash**
 ### Auto installation script
 * download the source code
-* extract it into a folder called 'Harmony' in your home directory
+* extract it into a folder
 * cd into the folder
 * run the harmony-setup.sh file
 * input the shell you use
@@ -45,13 +45,13 @@ From the beginning, we're commited to you being able to run code in multiple lan
 # Roadmap
 - [x] Menu, like in Stronge
 - [ ] Better syntax highlighting 
-- [x] Autocomplete bracket matching/quote matching (maybe) (like does it count if we have a thing that checks if you put semicolons on the end of your java and css lines, and checks if you ended python statements correctly?)
-- [ ] idk maybe songs again for funni
+- [x] Autocorrect bracket matching/quote matching
+- [ ] ~~idk maybe songs again for funni~~ Maybe not
 - [ ] Switch to Stdin for inputs
 - [ ] Opening sounds
 - [x] replace
 - [x] find
-- [ ] improve line editing
+- [x] improve line editing
 - [x] java syntax highlighting
 - [x] Organise things and document
 - [ ] extension installer script
