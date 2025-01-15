@@ -1,0 +1,8 @@
+[
+  {
+    "name": "harmony",
+    "version": "0.3.0",
+    "description": "Stronge-Harmony, the new text editor from EyeScary Development",
+    "protocols": ["install.sh", "uninstall.sh", "update.sh"]
+  }
+]
