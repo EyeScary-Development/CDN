@@ -11,8 +11,8 @@ if [[ -d "~/.agpm/harmony" ]]; then
 else
     echo "Harmony not installed, installing..."
     mkdir ~/.agpm/harmony && cd ~/.agpm/harmony
-    for file in menu.py editor.py langservhub.py consts.py settings.escnf ESDLang.py settings.py runcode.py harmony-setup.sh README.md; do
-        curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/$file
-    done
+    curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/package.zip
+    unzip package.zip
+    rm package.zip
     bash harmony-setup.sh
 fi
