@@ -22,6 +22,8 @@ else
       export file="$HOME/.config/fish/config.fish"
     else
       echo "Your shell isn't supported by the autoinstaller, create any aliases manually"
+      exit
     fi
+    echo "alias stronge='python3 ~/.agpm/stronge/stronge.py'" >> "$file"
     echo "Package installed successfully!"
 fi
