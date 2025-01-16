@@ -15,7 +15,6 @@ else
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/package.zip
     unzip package.zip
     rm package.zip
-    read -p "What shell are you using? (zsh, fish, bash): " shellinuse
     if [ "$SHELL" == "/bin/zsh" ]; then
       export file="$HOME/.zshrc"
     elif [ "$SHELL" == "/bin/bash" ]; then
