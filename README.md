@@ -1,5 +1,5 @@
 # EyeScary CDN
-A repo containing the stuff (well, fonts atm) we use, plus some other stuff incase anyone else wants to use this.  
+A repo containing the stuff (well, fonts atm) we use, plus some other stuff incase anyone else wants to use this. (oh yeah and also a backend for a package manager (Totally just a small thing))
 
 ## How to use
 Despite the gh pages deployments, if you are from outside the organisation please use jsDelivr or Statically to serve the assets, like this:  
