@@ -1,0 +1,5 @@
+{
+  "version": "0.3",
+  "description": "Simple text editor written in python (more like an IDE tbh but who cares)",
+  "releaseNotes": "Added the ability to modify a line with the :edln command, commands no longer need spaces, and the autocorrect can process indents"
+}
