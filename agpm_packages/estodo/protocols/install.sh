@@ -6,7 +6,7 @@ else
     mkdir ~/.agpm/
 fi
 cd ~/.agpm
-if [[ -d "$(eval echo "~/.agpm/harmony/")" ]]; then
+if [[ -d "$(eval echo "~/.agpm/estodo/")" ]]; then
     echo "Package directory exists already, try update instead"
     exit
 else
