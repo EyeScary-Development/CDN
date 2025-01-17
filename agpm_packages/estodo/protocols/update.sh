@@ -7,7 +7,7 @@ fi
 cd ~/.agpm
 if [[ -d "$(eval echo "~/.agpm/estodo")" ]]; then
     echo "Package directory exists. Proceeding..."
-    cd ~/.agpm/harmony/ 
+    cd ~/.agpm/estodo/ 
     rm *
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/estodo/package.zip
     unzip package.zip
