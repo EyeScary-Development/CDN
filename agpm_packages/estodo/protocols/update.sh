@@ -11,7 +11,6 @@ if [[ -d "$(eval echo "~/.agpm/estodo")" ]]; then
     rm *
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/estodo/package.zip
     unzip package.zip
-    echo "python3 ~/.agpm/estodo/notif.py" >> "$file"
     echo "cleaning up..."
     rm package.zip
 else
