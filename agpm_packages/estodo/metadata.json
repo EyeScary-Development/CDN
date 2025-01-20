@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Simple to do list (minimalism, so minimal if you don't know the commands, it's unusable :D)",
   "releaseNotes": "Added a notification thing that runs whenever you start your shell to show how many todos you have"
 }
