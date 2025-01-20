@@ -25,6 +25,7 @@ else
       echo "Your shell is not supported, make all aliases manually"
       exit
     fi
+      echo "python3 ~/.agpm/estodo/notif.py" >> "$file"
       echo "alias estodo='python3 ~/.agpm/estodo/soft.py'" >> "$file"
       echo "Package installed successfully!"
 fi
