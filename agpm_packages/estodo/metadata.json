@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.3.1",
   "description": "Simple to do list (minimalism, so minimal if you don't know the commands, it's unusable :D)",
   "releaseNotes": "major rewrite so it just works"
 }
