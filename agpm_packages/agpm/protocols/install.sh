@@ -4,6 +4,13 @@ else
     echo "Agpm directory does not exist. Creating directory..."
     mkdir ~/.agpm/
 fi
+
+if [[ -d "$(eval echo "~/.agpm/agpmroot/")" ]]; then
+    echo "Agpm is installed, try update instead"
+    exit
+else
+    echo "Agpm is not installed, can proceed with installation..."
+fi
 cd ~/.agpm
 mkdir ~/.agpm/agpmroot && cd ~/.agpm/agpmroot
 curl -O https://eyescary-development.github.io/CDN/agpm_packages/agpm/package.zip
