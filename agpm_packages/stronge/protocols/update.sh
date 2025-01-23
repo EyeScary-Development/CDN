@@ -8,7 +8,7 @@ cd ~/.agpm
 if [[ -d "$(eval echo "~/.agpm/stronge")" ]]; then
     echo "Stronge directory exists. Proceeding..."
     cd ~/.agpm/stronge/ 
-    rm *
+    rm -rf *
     curl -O https://eyescary-development.github.io/CDN/agpm_packages/stronge/package.zip
     unzip package.zip
     rm package.zip
