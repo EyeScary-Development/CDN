@@ -1,4 +1,5 @@
 pidms-advance
 harmony
 stronge
+esmusic-tui
 estodo
