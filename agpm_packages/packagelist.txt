@@ -2,5 +2,5 @@ pidms-advance
 harmony
 stronge
 esmusic-tui
-agpm
+agpmroot
 estodo
