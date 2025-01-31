@@ -13,7 +13,7 @@ else
 fi
 cd ~/.agpm
 mkdir ~/.agpm/agpmroot && cd ~/.agpm/agpmroot
-curl -O https://eyescary-development.github.io/CDN/agpm_packages/agpm/package.zip
+curl -O https://eyescary-development.github.io/CDN/agpm_packages/agpmroot/package.zip
 unzip package.zip
 rm package.zip
 if [ "$SHELL" == "/bin/zsh" ]; then

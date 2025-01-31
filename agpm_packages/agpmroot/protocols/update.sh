@@ -9,7 +9,7 @@ if [[ -d "$(eval echo "~/.agpm/agpmroot")" ]]; then
     echo "AGPM root directory exists. Proceeding..."
     cd ~/.agpm/agpmroot/ 
     rm *
-    curl -O https://eyescary-development.github.io/CDN/agpm_packages/harmony/package.zip
+    curl -O https://eyescary-development.github.io/CDN/agpm_packages/agpmroot/package.zip
     unzip package.zip
     rm package.zip
 else
