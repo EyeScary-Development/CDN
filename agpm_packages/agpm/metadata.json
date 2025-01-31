@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "description": "Wow you're seriously using AGPM to look at the metadata for AGPM",
-  "releaseNotes": "Version control now works (rust clients still welcome!)"
+  "releaseNotes": "You can now search packages (you're probably reading this using the search feature) (rust clients still welcome!)"
 }
