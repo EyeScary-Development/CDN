@@ -1,0 +1,62 @@
+{
+    "song1":{
+        "songTitle":"AGPM",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP1/AGPM.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP1/ESDP1.png",
+        "albumTitle":"ESDP1"
+    },
+    "song2":{
+        "songTitle":"Harmony",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP1/Harmony.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP1/ESDP1.png",
+        "albumTitle":"ESDP1"
+    },
+    "song3":{
+        "songTitle":"Stronge",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP2/Stronge.mp3",
+        "albumArt":"https://wilburwilliams.uk/favicon.ico",
+        "albumTitle":"ESDP2"
+    },
+    "song4":{
+        "songTitle":"Stronge 2",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP2/Stronge_2.mp3",
+        "albumArt":"https://wilburwilliams.uk/favicon.ico",
+        "albumTitle":"ESDP2"
+    },
+    "song5":{
+        "songTitle":"BHP IS A ONE CENT STOCK FRAUD",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP2/BHP_IS_A_ONE_CENT_STOCK_FRAUD.mp3",
+        "albumArt":"https://wilburwilliams.uk/favicon.ico",
+        "albumTitle":"ESDP2"
+    },
+    "song6":{
+        "songTitle":"BHP IS A ONE CENT STOCK FRAUD 2",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP2/BHP_IS_A_ONE_CENT_STOCK_FRAUD_2.mp3",
+        "albumArt":"https://wilburwilliams.uk/favicon.ico",
+        "albumTitle":"ESDP2"
+    },
+    "song7":{
+        "songTitle":"E",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP3/E.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP3/ESDP3.png",
+        "albumTitle":"ESDP3"
+    },
+    "song8":{
+        "songTitle":"E 2",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP3/E_2.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP3/ESDP3.png",
+        "albumTitle":"ESDP3"
+    },
+    "song9":{
+        "songTitle":"England",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP3/England.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP3/ESDP3.png",
+        "albumTitle":"ESDP3"
+    },
+    "song10":{
+        "songTitle":"England 2",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/ESDP3/England_2.mp3",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/ESDP3/ESDP3.png",
+        "albumTitle":"ESDP3"
+    }
+}
