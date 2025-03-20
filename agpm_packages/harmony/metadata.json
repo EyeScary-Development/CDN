@@ -1,5 +1,0 @@
-{
-  "version": "0.4",
-  "description": "Simple text editor written in python (more like an IDE tbh but who cares)",
-  "releaseNotes": "Added a command to clear the file in one go and also a thing that lets you execute terminal commands"
-}

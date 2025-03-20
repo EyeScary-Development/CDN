@@ -1,0 +1,37 @@
+{
+  "stronge":{
+  "version": "0.11",
+  "description": "(not a) Simple text editor written in python (more like an IDE tbh but who cares)",
+  "releaseNotes": "Made the song (not) work (lol)"
+},
+"estodo":{
+  "version": "0.3.1",
+  "description": "Simple to do list (minimalism, so minimal if you don't know the commands, it's unusable :D)",
+  "releaseNotes": "major rewrite so it just works"
+},
+"cobblestone":{
+  "version": "0.1",
+  "description": "Simple note taking app based on the Harmony code editor",
+  "releaseNotes": "Initial release"
+},
+"pidms-advance":{
+  "version": "1.0",
+  "description": "Simple game about defeating slimes",
+  "releaseNotes": "This exists now"
+},
+"harmony":{
+  "version": "0.4",
+  "description": "Simple text editor written in python (more like an IDE tbh but who cares)",
+  "releaseNotes": "Added a command to clear the file in one go and also a thing that lets you execute terminal commands"
+},
+"esmusic-tui":{
+  "version": "0.1",
+  "description": "Terminal version of our online music streaming service",
+  "releaseNotes": "Guys we made a product that works first try!1!!!1"
+},
+"agpmroot":{
+  "version": "0.4",
+  "description": "Wow you're seriously using AGPM to look at the metadata for AGPM",
+  "releaseNotes": "Redid some code to do a thing maybe"
+}
+}
