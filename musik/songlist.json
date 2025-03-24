@@ -82,5 +82,11 @@
         "songUrl":"https://eyescary-development.github.io/CDN/musik/DRUMNBASS/DRUMNBASS4.mp3",
         "albumArt":"https://eyescary-development.github.io/CDN/musik/DRUMNBASS/DRUMNBASS.png",
         "albumTitle":"DRUMNBASS"
+    },
+    "song15":{
+        "songTitle":"Scattered Cells",
+        "songUrl":"https://eyescary-development.github.io/CDN/musik/CelLua/scatteredcells.opus",
+        "albumArt":"https://eyescary-development.github.io/CDN/musik/CelLua/cellua.webp",
+        "albumTitle":"CelLua"
     }
   }
