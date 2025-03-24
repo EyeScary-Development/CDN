@@ -30,8 +30,8 @@
   "releaseNotes": "Guys we made a product that works first try!1!!!1"
 },
 "agpmroot":{
-  "version": "0.4",
+  "version": "2.0",
   "description": "Wow you're seriously using AGPM to look at the metadata for AGPM",
-  "releaseNotes": "Redid some code to do a thing maybe"
+  "releaseNotes": "MAJOR REFACTOR OF METADATA"
 }
 }
