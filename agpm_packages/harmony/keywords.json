@@ -1,0 +1,51 @@
+{
+  ".py": {
+    "level": "advanced",
+    "autocorrect":"true",
+    "keywords": ["print", "input", "if", "else:", "def", "try:", "except", "return", "import", "from", "for", "in", "match", "case", "and", "or", "elif", "while"],
+    "special_keywords": {
+      "print(": ")",
+      "input(": ")",
+      "if": ":",
+      "while": ":",
+      "except": ":",
+      "def": "):",
+      "elif": ":"
+    }
+  },
+  ".esdla": {
+    "level": "semiadvanced",
+    "autocorrect":"false",
+    "keywords": ["write", "input", "if", "else", "endif", "function", "endfunction", "while", "endwhile", "radnom", "quit", "var"],
+    "special_keywords": {
+      "if": 4,
+      "endfunction": 2,
+      "function": 2,
+      "radnom": 3
+    }
+  },
+  ".java": {
+    "level": "advanced",
+    "autocorrect":"true",
+    "keywords": ["System", "public", "if", "else", "public", "static", "while", "void", "class", "};", "}", "int", "String", "float"],
+    "special_keywords": {
+      "int": ";",
+      "String": ";",
+      "float": ";",
+      "if": "){"
+    },
+    "exceptions": ["if", "else", "while", "for"]
+  },
+  ".css": {
+    "level": "advanced",
+    "autocorrect":"true",
+    "keywords": ["body{", "button{", "button:hover{", "input{", "a{", "a:hover{", "p{", "h1{", "h2{", "h3{", "h4{", "h5{", "h6{", "b{", "i{", "background-color:", "background-image:", "color:", "border-radius:", "borders:"],
+    "special_keywords": {
+      "background-color:": ";",
+      "background-image:": ";",
+      "color:": ";",
+      "border-radius:": ";",
+      "borders:": ";"
+    }
+  }
+}
