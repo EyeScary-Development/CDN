@@ -20,7 +20,7 @@
   "releaseNotes": "This exists now"
 },
 "harmony":{
-  "version": "0.5",
+  "version": "0.5.1",
   "description": "Simple text editor written in python (more like an IDE tbh but who cares)",
   "releaseNotes": "Removed autocorrect BUT added a modular syntax highlighting system, also changed the commands to be more betterer"
 },
