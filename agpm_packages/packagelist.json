@@ -20,9 +20,9 @@
   "releaseNotes": "This exists now"
 },
 "harmony":{
-  "version": "0.6",
+  "version": "0.7",
   "description": "Simple text editor written in python (more like an IDE tbh but who cares)",
-  "releaseNotes": "Some deprecations, major optimisations and ESDLang 8, just look at the website for changes"
+  "releaseNotes": "Optimisations to the core of the code editor"
 },
 "esmusic-tui":{
   "version": "0.1",
